@@ -1,0 +1,101 @@
+/* #toptext{ 
+    background-color: rgb(255, 6, 106);
+    color: rgb(0, 0, 0);
+}
+
+#toptext{
+    margin: 2px;
+   
+}
+#toptext p{
+    
+    font-size: 40px;
+
+}
+#login{
+    margin-left: 60%;
+    display:inline-block;
+    text-align: right;
+}
+#logo{
+    display:inline-block
+} */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.full-page
+{
+    height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(https://www.itl.cat/pngfile/big/285-2853509_food-wallpaper-hd-high-resolution-food-images-hd.jpg);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+nav
+{
+    flex: 1;
+    text-align: right;
+}
+nav ul 
+{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li
+{
+    display: inline-block;
+    margin-right: 70px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+nav ul li button
+{
+    font-size: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+nav ul li button:hover
+{
+    color: rgb(7, 7, 7);
+}
+nav ul li a:hover
+{
+    color: rgb(7, 7, 7);
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   font-size: larger;
+   font-style: italic;
+   color: beige;
+  }
